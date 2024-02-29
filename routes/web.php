@@ -24,3 +24,7 @@ Route::get('/helloworld', function () {
 Route::get('/store', function () {
     return view('helloworld');
 });
+
+Route::get('/store1', function () {
+    return view('helloworld');
+});
