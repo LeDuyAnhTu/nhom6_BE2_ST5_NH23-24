@@ -17,20 +17,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/helloworld', function () {
-    return view('helloworld');
+Route::get('/exe1', function () {
+    return view('exe1');
 });
 
-Route::get('/store', function () {
-    return view('helloworld');
+Route::get('/lienhe', function () {
+    return view('lienhe');
 });
 
-<<<<<<< HEAD
-Route::get('/store1', function () {
-    return view('helloworld');
+Route::get('/gioithieu', function () {
+    return view('gioithieu');
 });
-=======
-Route::get('/store2', function () {
-    return view('helloworld');
+
+Route::get('/ban', function () {
+    return view('ban');
 });
->>>>>>> 97d53837a10a83f909a05811213f7bfd77c468eb
+
+Route::get('/ghe', function () {
+    return view('ghe');
+});
+
+Route::get('/exe2', function () {
+    return view('exe2');
+});
