@@ -25,6 +25,12 @@ Route::get('/store', function () {
     return view('helloworld');
 });
 
+<<<<<<< HEAD
 Route::get('/store1', function () {
     return view('helloworld');
 });
+=======
+Route::get('/store2', function () {
+    return view('helloworld');
+});
+>>>>>>> 97d53837a10a83f909a05811213f7bfd77c468eb
