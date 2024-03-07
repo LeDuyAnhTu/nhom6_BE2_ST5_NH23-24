@@ -18,23 +18,23 @@ Route::get('/', function () {
 });
 
 Route::get('/exe1', function () {
-    return view('exe1');
+    return view('exe1')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
 });
 
 Route::get('/lienhe', function () {
-    return view('lienhe');
+    return view('lienhe')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
 });
 
 Route::get('/gioithieu', function () {
-    return view('gioithieu');
+    return view('gioithieu')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
 });
 
 Route::get('/ban', function () {
-    return view('ban');
+    return view('ban')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
 });
 
 Route::get('/ghe', function () {
-    return view('ghe');
+    return view('ghe')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
 });
 
 Route::get('/exe2', function () {
