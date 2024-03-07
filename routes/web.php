@@ -13,30 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::group(['as' => 'name.'], function () {
+    Route::get('/{name?}', function ($name = 'trangchu') {
+        return view($name);
+        // ->with('nav', file_get_contents(__DIR__ . "/../resources/views/navbar.blade.php"));
+    })->name('view');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/exe1', function () {
-    return view('exe1')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
-});
+Route::get('/xinchao/{name?}',function($name="22211TT0024") {
+    return view('demo')->with('name',$name);
+})->where('name','[0-9]{2}[2-5]11[A-Z]{2}[0-9]{4}');
 
-Route::get('/lienhe', function () {
-    return view('lienhe')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
-});
 
-Route::get('/gioithieu', function () {
-    return view('gioithieu')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
-});
-
-Route::get('/ban', function () {
-    return view('ban')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
-});
-
-Route::get('/ghe', function () {
-    return view('ghe')->with('nav',file_get_contents(__DIR__."/../resources/views/navbar.html"));
-});
-
-Route::get('/exe2', function () {
-    return view('exe2');
-});
+// Route::get('/{name?}',function($name="22211TT0024") {
+//     return view('demo')->with('name',$name);
+// });
