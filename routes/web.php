@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('/demo', function () {
+    return view('demo');
+})->middleware('checkname');
+
+
+Route::get('/checkage/{age}', function ($age) {
+    return 'Ban da du tuoi de truy cap trang web nay';
+})->name('checkage')->whereNumber('age')->middleware('checkage');
+
 Route::group(['as' => 'name.'], function () {
     Route::get('/{name?}', function ($name = 'trangchu') {
         return view($name);
