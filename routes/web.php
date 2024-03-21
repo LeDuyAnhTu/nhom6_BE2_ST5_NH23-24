@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Signup;
+use App\Http\Controllers\Product;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,14 +16,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/demo', function () {
-    return view('demo');
-})->middleware('checkname');
+//Dùng controller resource
+Route::resource("/product", Product::class);
+
+//Dùng controller
+Route::post('/{name?}', [Signup::class, 'show'] );
+Route::get('/{name?}', [Signup::class, 'show'] );
+
+//Dùng request trực tiếp
+// Route::post('/demo', function(Request $request){
+//     return "Xin chào ". $request->fname.' '.$request->sname;
+// });
 
 
-Route::get('/checkage/{age}', function ($age) {
-    return 'Ban da du tuoi de truy cap trang web nay';
-})->name('checkage')->whereNumber('age')->middleware('checkage');
+// Route::post('/demo', function () {
+//     return view('demo');
+// })->middleware('checkname');
+
 
 Route::group(['as' => 'name.'], function () {
     Route::get('/{name?}', function ($name = 'trangchu') {

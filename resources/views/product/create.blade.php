@@ -68,20 +68,16 @@ span.psw {
 </head>
 <body>
 
-<h2>Login Form</h2>
+<h2>Create product</h2>
 
-<form action="{{ url('/demo') }}" method="post">
+<form action="{{ url('product') }}" method="post">
     @csrf
   <div class="container">
-    <input type="text" placeholder="First Name" name="fname" required>
+    <input type="text" placeholder="Product ID" name="id" required>
 
-    <input type="text" placeholder="Surname" name="sname" required>
-
-    <input type="text" placeholder="Mobile number or email address" name="contact" required>
-
-    <input type="password" placeholder="New Password" name="psw" required>
+    <input type="text" placeholder="Product name" name="pname" required>
         
-    <button type="submit">Sign up</button>
+    <button type="submit">Create</button>
   </div>
 
 </form>
