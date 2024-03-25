@@ -44,6 +44,9 @@ Route::group(['as' => 'name.'], function () {
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('template.index', function () {
+    return view('template.index');
+});
 
 Route::get('/xinchao/{name?}',function($name="22211TT0024") {
     return view('demo')->with('name',$name);
