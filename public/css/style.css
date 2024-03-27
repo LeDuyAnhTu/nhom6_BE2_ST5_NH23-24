@@ -251,6 +251,11 @@ a:focus {
   background-color: #e69c00;
 }
 
+/* iocn cart */
+.icon_cart{
+  color: white;
+}
+
 .custom_nav-container .navbar-toggler {
   outline: none;
 }
