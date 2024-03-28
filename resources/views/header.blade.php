@@ -2,7 +2,7 @@
 <header class="header_section">
     <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="{{ asset('template.index') }}">
+            <a class="navbar-brand" href="{{ route('name', ['name' => 'index']) }}">
                 <span>
                     Feane
                 </span>
