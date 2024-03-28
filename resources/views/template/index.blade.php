@@ -29,8 +29,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-  <!-- link icon cart -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+   
 
 
 </head>
@@ -52,7 +51,7 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      fat Food Restaurant
                     </h1>
                     <p>
                       Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
@@ -73,7 +72,7 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      fat Food Restaurant
                     </h1>
                     <p>
                       Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
@@ -94,7 +93,7 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      fat Food Restaurant
                     </h1>
                     <p>
                       Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
@@ -143,7 +142,7 @@
                 </h6>
                 <a href="">
                   Order Now 
-                  <i class="fas fa-shopping-cart icon_cart"></i>
+                  <i class="fa fa-shopping-cart icon_cart"></i>
                 </a>
               </div>
             </div>
@@ -162,7 +161,7 @@
                 </h6>
                 <a href="">
                   Order Now 
-                  <i class="fas fa-shopping-cart icon_cart"></i>
+                  <i class="fa fa-shopping-cart icon_cart"></i>
                 </a>
               </div>
             </div>
@@ -212,7 +211,7 @@
                       $20
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>
+                      <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -237,7 +236,7 @@
                       $15
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>
+                      <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -262,7 +261,7 @@
                       $17
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>
+                      <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -287,7 +286,7 @@
                       $18
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>
+                      <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -312,7 +311,7 @@
                       $10
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>
+                      <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -337,7 +336,7 @@
                       $15
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>
+                      <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -362,7 +361,7 @@
                       $12
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>
+                      <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -387,7 +386,7 @@
                       $14
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>
+                      <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -412,7 +411,7 @@
                       $10
                     </h6>
                     <a href="">
-                       <i class="fas fa-shopping-cart icon_cart"></i>
+                       <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>

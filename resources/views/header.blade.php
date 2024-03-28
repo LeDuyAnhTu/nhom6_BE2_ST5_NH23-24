@@ -2,7 +2,7 @@
 <header class="header_section">
     <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="{{ asset('template.index') }}">
+            <a class="navbar-brand" href="{{ route('name', ['name' => 'index']) }}">
                 <span>
                     Feane
                 </span>
@@ -32,7 +32,7 @@
                         <i class="fa fa-user" aria-hidden="true"></i>
                     </a>
                     <a class="cart_link" href="#">
-                        <i class="fas fa-shopping-cart icon_cart"></i>
+                        <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                     <form class="form-inline">
                         <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
