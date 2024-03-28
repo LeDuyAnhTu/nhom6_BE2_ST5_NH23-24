@@ -58,7 +58,7 @@
         <li class="active" data-filter="*">All</li>
         <li data-filter=".burger">Burger</li>
         <li data-filter=".pizza">Pizza</li>
-        <li data-filter=".pasta">Pasta</li>
+        <li data-filter=".drink">Drink</li>
         <li data-filter=".fries">Fries</li>
       </ul>
 
@@ -139,7 +139,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
+          <div class="col-sm-6 col-lg-4 all drink">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -147,7 +147,7 @@
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pasta
+                    Delicious Drink
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
@@ -264,7 +264,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
+          <div class="col-sm-6 col-lg-4 all drink">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -272,7 +272,7 @@
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pasta
+                    Delicious Drink
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
