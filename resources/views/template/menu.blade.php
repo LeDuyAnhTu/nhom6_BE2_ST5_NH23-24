@@ -68,7 +68,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f1.png" alt="">
+                  <img src="images/p02.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -93,7 +93,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f2.png" alt="">
+                  <img src="images/b03.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -118,7 +118,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f3.png" alt="">
+                  <img src="images/p03.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -168,7 +168,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f5.png" alt="">
+                  <img src="images/k01.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -218,7 +218,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f7.png" alt="">
+                  <img src="images/b04.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -243,7 +243,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f8.png" alt="">
+                  <img src="images/b05.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
