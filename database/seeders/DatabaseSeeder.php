@@ -15,30 +15,55 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
         DB::table('food_category')->insert([
-            ['category_id'=>"1", 'category_name'=>"Burger"],
-            ['category_id'=>"2", 'category_name'=>"Pizza"],
-            ['category_id'=>"3", 'category_name'=>"Drink"],
-            ['category_id'=>"4", 'category_name'=>"Fries"]
+            ['category_name'=>"Burger"],
+            ['category_name'=>"Pizza"],
+            ['category_name'=>"Drink"],
+            ['category_name'=>"Fries"]
         ]);  
+        
         DB::table('food')->insert([
-            ['food_id'=>"1", 'food_name'=>"Delicious Burger", 
+            // Bánh Burger {'category_id'=>"1"}
+            ['food_name'=>"Delicious Burger", 
             'category_id'=>"1", 'price'=>50000.0, 
-            'description'=>"Tasty, delicious, and has me craving more on the first bite.” to “Juicy, mouthwatering, 
-            tasty, and everything you’d ever want to savor.", 'image_url'=>"f2.png"],
-            ['food_id'=>"2", 'food_name'=>"Tasty Burger", 
+            'description'=>"Burger thịt nướng xà lách", 'image_url'=>"b03.png"],
+            ['food_name'=>"Tasty Burger", 
             'category_id'=>"1", 'price'=>69000.0, 
-            'description'=>"Tasty Burger is a modern fast food burger restaurant with old school sensibilities.", 'image_url'=>"f7.png"],
-            ['food_id'=>"3", 'food_name'=>"Burger whopper jr", 
+            'description'=>"Burger gà chiên", 'image_url'=>"b04.png"],
+            ['food_name'=>"Burger whopper jr", 
             'category_id'=>"1", 'price'=>60000.0, 
-            'description'=>"It's just like the legendary Whopper®, only smaller. Same great flame-grilled Aussie beef with ripe tomato, fresh lettuce, onion, pickles, mayo and 
-            tomato sauce on a toasted sesame seed bun", 'image_url'=>"f8.png"],
-            ['food_id'=>"4", 'food_name'=>"Charcoal crispy salmon burger", 
+            'description'=>"Burger cá đuối áp chảo", 'image_url'=>"b05.png"],
+            ['food_name'=>"Charcoal crispy salmon burger", 
             'category_id'=>"1", 'price'=>50000.0, 
             'description'=>"Burger cá hồi giòn vỏ than tre", 'image_url'=>"b01.png"],
-            ['food_id'=>"5", 'food_name'=>"Spicy tendercrisp burger", 
+            ['food_name'=>"Spicy tendercrisp burger", 
             'category_id'=>"1", 'price'=>70000.0, 
-            'description'=>"Burger gà giòn cay", 'image_url'=>"b02.jpg"]
+            'description'=>"Burger gà giòn cay", 'image_url'=>"b02.jpg"],
+        
+            // Bánh Pizza {'category_id'=>"2"}
+            ['food_name'=>"Delicious Pizza", 
+            'category_id'=>"2", 'price'=>215000.0, 
+            'description'=>"PIZZA SINGAPORE CUA XỐT ỚT SINGAPORE - SINGAPORE CHILI CRAB", 'image_url'=>"p01.jpg"], 
+            ['food_name'=>"Delicious Pizza Thanh Cua", 
+            'category_id'=>"2", 'price'=>190000.0, 
+            'description'=>"PIZZA SINGAPORE THANH CUA - SINGAPORE CRAB", 'image_url'=>"p02.png"],
+            ['food_name'=>"Pizza Phô Mai Việt Quất", 
+            'category_id'=>"2", 'price'=>200000.0, 
+            'description'=>"PIZZA NỀM MẠI VỪA ĂN, PHÔ MAI BÉO NGẬY", 'image_url'=>"p03.png"],
+        
+            // Nước uống {'category_id'=>"3"}
+            ['food_name'=>"Nước cam sành ép", 
+            'category_id'=>"3", 'price'=>89000.0, 
+            'description'=>"Cam tươi nguyên chất mát lạnh đến từng cú hút", 'image_url'=>"d01.png"],
+            ['food_name'=>"Soda chanh bạc hà", 
+            'category_id'=>"3", 'price'=>89000.0, 
+            'description'=>"Sản phẩm là sự kết hợp giữa sự tươi mát của thịt quả thanh yên và vị ngọt thiên nhiên từ mật ong", 'image_url'=>"d02.jpg"],
+        
+            // Fries {'category_id'=>"4"}
+            ['food_name'=>"Khoai tây chiên", 
+            'category_id'=>"4", 'price'=>100000.0, 
+            'description'=>" Vị ngon của khoai tây chiên đút lò không chỉ đến từ độ giòn và màu vàng sành điệu, mà còn từ hương vị đặc trưng của khoai tây cùng với một số gia vị và chất béo.", 'image_url'=>"k01.png"],
         ]);  
+        
         DB::table('customer')->insert([
             ['customer_name'=>"Dinh Hong Thai",
             'phonenumber'=>"0937656152",
@@ -162,5 +187,25 @@ class DatabaseSeeder extends Seeder
             'customer_id'=>"15",
             'reservation_date'=>now()],
         ]);
+        DB::table('invoice')->insert([
+            ['invoice_id'=>"1", 'table_id'=>"1", 'total_price'=>500000.0,
+            'invoice_date'=>now()],
+            ['invoice_id'=>"2", 'table_id'=>"2", 'total_price'=>400000.0,
+            'invoice_date'=>now()],
+            ['invoice_id'=>"3", 'table_id'=>"3", 'total_price'=>300000.0,
+            'invoice_date'=>now()],
+            ['invoice_id'=>"4", 'table_id'=>"4", 'total_price'=>700000.0,
+            'invoice_date'=>now()],
+            ['invoice_id'=>"5", 'table_id'=>"5", 'total_price'=>200000.0,
+            'invoice_date'=>now()],
+        ]);
+        DB::table('invoice_detail')->insert([
+            ['detail_id' => 1, 'invoice_id' => '1', 'food_id' => 1, 'quantity' => 2, 'price' => 100000],
+            ['detail_id' => 2, 'invoice_id' => '2', 'food_id' => 2, 'quantity' => 1, 'price' => 69000],
+            ['detail_id' => 3, 'invoice_id' => '3', 'food_id' => 3, 'quantity' => 2, 'price' => 120000],
+            ['detail_id' => 4, 'invoice_id' => '4', 'food_id' => 4, 'quantity' => 2, 'price' => 100000],
+            ['detail_id' => 5, 'invoice_id' => '5', 'food_id' => 2, 'quantity' => 1, 'price' => 69000],
+        ]);
+        
     }
 }

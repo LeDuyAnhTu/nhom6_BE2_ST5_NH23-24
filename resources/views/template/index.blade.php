@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,13 +30,15 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-  <!-- link icon cart -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+   
 
 
 </head>
 
 <body>
+
+@extends('extend')
+@section('content')
 
   <div class="hero_area">
     <div class="bg-box">
