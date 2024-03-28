@@ -83,7 +83,7 @@
                       $20
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>
+                      <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -108,7 +108,7 @@
                       $15
                     </h6>
                     <a href="">
-                      <i class="fas fa-shopping-cart icon_cart"></i>  
+                      <i class="fa fa-shopping-cart icon_cart"></i>  
                     </a>
                   </div>
                 </div>
@@ -158,7 +158,7 @@
                       $18
                     </h6>
                     <a href="">
-                       <i class="fas fa-shopping-cart icon_cart"></i>
+                       <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -183,7 +183,7 @@
                       $10
                     </h6>
                     <a href="">
-                       <i class="fas fa-shopping-cart icon_cart"></i>
+                       <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -208,7 +208,7 @@
                       $15
                     </h6>
                     <a href="">
-                       <i class="fas fa-shopping-cart icon_cart"></i>
+                       <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -233,7 +233,7 @@
                       $12
                     </h6>
                     <a href="">
-                       <i class="fas fa-shopping-cart icon_cart"></i>
+                       <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -258,7 +258,7 @@
                       $14
                     </h6>
                     <a href="">
-                       <i class="fas fa-shopping-cart icon_cart"></i>
+                       <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
@@ -283,7 +283,7 @@
                       $10
                     </h6>
                     <a href="">
-                       <i class="fas fa-shopping-cart icon_cart"></i>
+                       <i class="fa fa-shopping-cart icon_cart"></i>
                     </a>
                   </div>
                 </div>
